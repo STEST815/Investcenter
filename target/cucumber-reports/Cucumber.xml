@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.638276">
+    <testcase classname="Automate Journey 1 and 2" name="Adviser guide PDF" time="11.615343">
+        <system-out><![CDATA[Given I navigate to the application successfully............................passed
+When I select the find out more button from Charges gadget..................passed
+And I verify that Charges page is loaded successfully.......................passed
+Then I click Charges – SIPP, ISA or GIA download and ensure the PDF is displayed in new window.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automate Journey 1 and 2" name="Register" time="19.58408">
+        <system-out><![CDATA[Given I navigate to the application successfully............................passed
+When I select the Register icon in top navigation bar.......................passed
+And I verify Adviser registration page is displayed.........................passed
+And I click on continue button leaving the FCA firm reference blank and verify the FSR number field is mandatory. Please try again..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automate Journey 1 and 2" name="Register with random" time="19.438853">
+        <system-out><![CDATA[Given I navigate to the application successfully............................passed
+When I select the Register icon in top navigation bar.......................passed
+And I verify Adviser registration page is displayed.........................passed
+And I click on continue button with test into the FCA firm reference field and verify the We could not locate your firm. Please check that you have entered your FSR number correctly..passed
+]]></system-out>
+    </testcase>
+</testsuite>

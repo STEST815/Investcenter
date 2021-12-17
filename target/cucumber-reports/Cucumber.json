@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013022300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the application successfully",
+            "match": {
+              "location": "StepDefs_Journey.i_reached_the_main_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2183368500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Adviser guide PDF",
+        "description": "",
+        "id": "automate-journey-1-and-2;adviser-guide-pdf",
+        "after": [
+          {
+            "result": {
+              "duration": 162389600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6009404000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select the find out more button from Charges gadget",
+            "match": {
+              "location": "StepDefs_Journey.i_select_find_more_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12089300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify that Charges page is loaded successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Charges",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefs_Journey.i_verify_page_is_loaded(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2232220900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Charges – SIPP, ISA or GIA download and ensure the PDF is displayed in new window",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Charges – SIPP, ISA or GIA",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefs_Journey.i_download_pdf(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 968309100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the application successfully",
+            "match": {
+              "location": "StepDefs_Journey.i_reached_the_main_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1070479800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Register",
+        "description": "",
+        "id": "automate-journey-1-and-2;register;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 136860200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6959159900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select the Register icon in top navigation bar",
+            "match": {
+              "location": "StepDefs_Journey.i_select_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5067159300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify Adviser registration page is displayed",
+            "match": {
+              "location": "StepDefs_Journey.i_verify_registration_page_is_loaded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5381819200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on continue button leaving the FCA firm reference blank and verify the FSR number field is mandatory. Please try again.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FSR number field is mandatory. Please try again.",
+                  "offset": 79
+                }
+              ],
+              "location": "StepDefs_Journey.i_click_continue(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 908970400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the application successfully",
+            "match": {
+              "location": "StepDefs_Journey.i_reached_the_main_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1062086100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Register with random",
+        "description": "",
+        "id": "automate-journey-1-and-2;register-with-random;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 151590800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6821168900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select the Register icon in top navigation bar",
+            "match": {
+              "location": "StepDefs_Journey.i_select_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5070180200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify Adviser registration page is displayed",
+            "match": {
+              "location": "StepDefs_Journey.i_verify_registration_page_is_loaded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5424597800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on continue button with test into the FCA firm reference field and verify the We could not locate your firm. Please check that you have entered your FSR number correctly.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 32
+                },
+                {
+                  "val": "We could not locate your firm. Please check that you have entered your FSR number correctly.",
+                  "offset": 86
+                }
+              ],
+              "location": "StepDefs_Journey.i_click_continue_with_invalid_data(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automate Journey 1 and 2",
+    "description": "",
+    "id": "automate-journey-1-and-2",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Journey.feature",
+    "tags": []
+  }
+]
